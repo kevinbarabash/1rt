@@ -39,6 +39,8 @@ app.use(require('serve-static')(path.join(__dirname, '..', 'static')));
 const prologue = (title, style) => `<!doctype html><html lang="en-us">
 <head>
 <meta charset="utf-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="/leaf-green.png">
 <title>${title}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <link rel="shortcut icon" href="https://www.khanacademy.org/favicon.ico?leaf">

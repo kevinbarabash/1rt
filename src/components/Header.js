@@ -22,7 +22,6 @@ export default class Header extends Component {
       top: '-1px' // vertically center in parent
     };
     const buttonStyle = {
-      borderLeft: '1px solid #ddd',
       color: '#999',
       float: 'right',
       textAlign: 'center',
